@@ -1,0 +1,30 @@
+/* styles.css */
+
+.navBar {
+    display: flex;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navBar .home,
+.navBar .about {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navBar .weather {
+    padding: 10px;
+    margin-left: 1100px;
+    cursor: pointer;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Optional: Add hover styles for better user experience */
+.navBar a:hover {
+    color: #ff00b3;
+}
